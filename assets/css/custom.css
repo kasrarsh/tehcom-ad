@@ -1,0 +1,7 @@
+﻿@font-face {
+    font-family: 'byekan';
+    src: url('../font/byekan.ttf') format('truetype');
+}
+.align_right{
+    text-align:right;
+}
