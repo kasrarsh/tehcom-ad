@@ -652,11 +652,31 @@ section {
   font-size: 15px;
   color: rgba(255, 255, 255, 0.8);
 }
+/*--------------------------free-------------------------------*/
+.counts-2 {
+    background: linear-gradient(90deg, rgba(88, 70, 249, 0.5) 0%, rgba(123, 39, 216, 0.5) 100%), url("../img/counts-bg.png") center center repeat;
+    padding: 40px 0 40px 0;
+}
 
-/*--------------------------------------------------------------
+    .counts-2 .counters span {
+        font-size: 48px;
+        display: block;
+        color: #fff;
+        font-weight: 600;
+        font-family: 'byekan', sans-serif;
+    }
+
+    .counts-2 .counters p {
+        padding: 0;
+        margin: 0 0 20px 0;
+        font-size: 15px;
+        color: rgba(255, 255, 255, 0.8);
+        }
+        /*--------------------------free-------------------------------*/
+        /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
+        .services .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
@@ -1724,3 +1744,6 @@ section {
         -o-transform: rotate(-5deg);
         transform: rotate(-5deg);
     }
+.margin-right-auto{
+    margin-right:auto!important;
+}
